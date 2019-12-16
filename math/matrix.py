@@ -9,6 +9,7 @@ def matrixmult(m1,m2):
             temp2.append(temp)
             temp=[]
         m2=temp2
+        if (len(m2[0])!=len(m2[0])): return 0
         temp2=[[] for i in range(len(m2))]
         sum=0
         for yeet in range(0,len(m1)):
