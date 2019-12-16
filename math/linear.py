@@ -14,3 +14,5 @@ def linearsolve(eq):
     cops=[float(''.join(i)) for i in cops]
     cops=-cops[-1]/cops[0]
     return cops
+def solvelinearlist(eq):
+    return [eq[1],-eq[2]/eq[0]]
